@@ -1,0 +1,87 @@
+/* Main form container */
+.formContainer {
+  width: 90%;
+  max-width: 480px;
+  background: #ffffff;
+  padding: 24px 26px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.formTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Text input */
+.formInput {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.formInput:focus {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+}
+
+/* Textarea */
+.formTextarea {
+  width: 100%;
+  min-height: 110px;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  resize: vertical;
+  outline: none;
+}
+
+.formTextarea:focus {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+}
+
+/* Select dropdown */
+.formSelect {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  background: white;
+  outline: none;
+}
+
+.formSelect:focus {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+}
+
+/* Submit button */
+.formButton {
+  width: 100%;
+  padding: 12px 14px;
+  background: #16a34a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.formButton:hover {
+  background: #15803d;
+}

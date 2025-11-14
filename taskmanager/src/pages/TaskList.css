@@ -1,0 +1,102 @@
+/* Main task list container */
+.taskList {
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+/* Title */
+.taskListTitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Each task card */
+.taskCard {
+  background: #ffffff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 18px;
+  border-left: 5px solid #2563eb; /* blue highlight */
+}
+
+/* Task title */
+.taskTitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Description */
+.taskDescription {
+  margin: 8px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Status text */
+.taskStatus {
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+/* Buttons container */
+.taskActions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Edit button */
+.editButton {
+  background: #16a34a; /* green */
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Delete button */
+.deleteButton {
+  background: #dc2626; /* red */
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  background: #15803d;
+}
+
+.deleteButton:hover {
+  background: #b91c1c;
+}
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.addButton:hover {
+  background: #1e4bbf;
+}
