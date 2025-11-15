@@ -23,7 +23,6 @@ export default function TaskList() {
   return (
     <div className="taskList">
 
-      {/* 🔥 Add button at very TOP always visible */}
       <div className="topBar">
         <Link className="addButton" to="/add">+ Add Task</Link>
       </div>
